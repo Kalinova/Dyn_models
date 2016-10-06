@@ -104,6 +104,9 @@ INPUT PARAMETERS:
 RETURN:
   TABLE: median values of the distributions of the velocity anisotropy, mass-to-light ratio and inclination, 
     together with their 75 and 25 percentile errors
+  CHI2: Reduced chi-square describing the quality of the fit, calculated from the reduced chi^2 of JAM code, considering
+     the number of the bins (Vrmsbin) and the number (n) of the fitted parameters (n=2), i.e.  
+     chi2_new=chi2_JAM*len(Vrmsbin)/(len(Vrmsbin)-2)
 
 (as described in "EMCEE code")    
   BURN_CHAINS: (burn-in phase) A pointer to the Markov chain itself, where the shape of this array is (k, iterations, dim).
@@ -122,7 +125,6 @@ RETURN:
 (as described in "JAM code")
   VRMSMOD:Vector of length P with the model predictions for the velocity
       second moments V_RMS ~ sqrt(vel^2 + sig^2) for each bin.
-  CHI2: Reduced chi^2 describing the quality of the fit
   FLUX:In output this contains a vector of length P with the PSF-convolved
        MGE surface brightness of each bin in Lsun/pc^2, used to plot the
        isophotes on the model results.
