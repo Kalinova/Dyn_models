@@ -2,6 +2,7 @@
 Markov Chain Monte Carlo (MCMC) implementation of Axisymmetric Drift Correction (ADC) and Jeans Anisotropic Models (JAM) approaches.
 
 REQUIRED ROUTINES:
+
 By M. Cappellari (included in the JAM distribution; http://purl.org/cappellari/software):
   - jam_axi_rms
   - mge_vcirc
