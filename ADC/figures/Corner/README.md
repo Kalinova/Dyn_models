@@ -1,1 +1,0 @@
-# Corner distribution figures

@@ -1,1 +1,0 @@
-#Circular Velocity Curves
