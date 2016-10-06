@@ -130,10 +130,8 @@ USAGE EXAMPLE:
 
 REQUIRED ROUTINES:
       By M. Cappellari (included in the JAM distribution; http://purl.org/cappellari/software):
-      - jam_axi_rms
-      - mge_vcirc
-      - cap_symmetrize_velfield
-      - cap_loess_2d
+      - JAM modelling package in python (jam_axi_rms.py, mge_vcirc.py, cap_symmetrize_velfield.py, cap_loess_2d.py)
+      
       By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
       - emcee
       - corner
