@@ -4,10 +4,7 @@ Markov Chain Monte Carlo (MCMC) implementation of Axisymmetric Drift Correction 
 REQUIRED ROUTINES:
 
 By M. Cappellari (included in the JAM distribution; http://purl.org/cappellari/software):
-  - jam_axi_rms
-  - mge_vcirc
-  - cap_symmetrize_velfield
-  - cap_loess_2d
+  - JAM modelling package in python
 
 By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
   - emcee
