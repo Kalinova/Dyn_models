@@ -150,9 +150,9 @@ V1.0: Written and tested as part of the implementation of
 # MCMC JAM model
 ######################
 #...Import packages
-from dyn_py.jam_axi_rms import jam_axi_rms
-from dyn_py.mge_vcirc import mge_vcirc
-from dyn_py.cap_plot_velfield import plot_velfield
+from jam_axi_rms import jam_axi_rms
+from mge_vcirc import mge_vcirc
+from cap_plot_velfield import plot_velfield
 
 import emcee
 import corner
