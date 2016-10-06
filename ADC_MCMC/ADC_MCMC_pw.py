@@ -42,6 +42,7 @@ PURPOSE:
    parametrization method (MGE; Monnet,Bacon & Emsellem 1992). 
    We use the "EMCEE code" of Foreman-Mackey et al. 2013 (http://dan.iel.fm/emcee/current/),
    an implementation of an affine invariant ensemble sampler for the MCMC method of parameter estimations.
+   Here, we fit a power-law function to the velocity profile of the galaxy. 
 
 
 CALLING SEQUENCE:
