@@ -47,7 +47,8 @@ CALLING SEQUENCE:
 
 
 INPUT PARAMETERS:
-  GAL: name of the galaxy 
+  GAL: name of the galaxy
+  IDEG_IN: galaxy inclination in degrees
   
 (as described in "JAM code")
   QMIN: the axis ratio of the flattest gaussian in Multi-Gaussian Expansion (MGE) method.
@@ -97,7 +98,7 @@ INPUT PARAMETERS:
   BURN_STEPS: Number of the steps for the burn-in process
   STEPS: Number of the steps after burn-in process, i.e steps for the final chains of the parameters
   THREADS: Number of threads to use for parallelization, where threads > 1 is for multiprocessing 
-  IDEG_IN: galaxy inclination in degrees
+
 
 
 RETURN:
