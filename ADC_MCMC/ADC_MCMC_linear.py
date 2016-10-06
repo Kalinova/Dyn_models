@@ -122,7 +122,7 @@ import astropy.io.fits as fits
 import scipy.stats as ss
 import scipy.interpolate as interp
 from astropy.table import Table
-from sub_pro.readcol import readcol
+from readcol import readcol
 import corner
 from matplotlib.colors import LogNorm
 import fish 
