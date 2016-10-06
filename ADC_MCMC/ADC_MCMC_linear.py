@@ -38,7 +38,7 @@ PURPOSE:
    parametrization method (MGE; Monnet,Bacon & Emsellem 1992). 
    We use the "EMCEE code" of Foreman-Mackey et al. 2013 (http://dan.iel.fm/emcee/current/),
    an implementation of an affine invariant ensemble sampler for the MCMC method of parameter estimations.
-   
+   Here, we fit a linear function to the velocity dispersion profile of the galaxy. 
 
 CALLING SEQUENCE:
     res = ADC_MCMC_linear(gal, incl, kv_in,sig0_in,ksig_in,R,vobs,evobs,sobs,esobs,I0obs,spobs,nwalks, burn_steps, steps, threads)   
