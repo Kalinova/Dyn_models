@@ -1,7 +1,7 @@
 from JAM_MCMC import JAM_MCMC
-from dyn_py.cap_symmetrize_velfield import symmetrize_velfield as symfield
-from dyn_py.cap_loess_2d import loess_2d
-from dyn_py.cap_plot_velfield import plot_velfield
+from cap_symmetrize_velfield import symmetrize_velfield as symfield
+from cap_loess_2d import loess_2d
+from cap_plot_velfield import plot_velfield
 import numpy as np
 import matplotlib.pyplot as plt
 from pdb import set_trace as stop
