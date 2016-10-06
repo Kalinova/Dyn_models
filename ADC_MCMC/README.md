@@ -5,7 +5,9 @@ REQUIRED ROUTINES:
 By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
   - emcee
   - corner
-
+By Adam Ginsburg (keflavich@gmail.com)
+  - readcol.py 
+  
 PURPOSE:
 
 This procedure calculates the Markov Chain Monte Carlo (MCMC) circular 
