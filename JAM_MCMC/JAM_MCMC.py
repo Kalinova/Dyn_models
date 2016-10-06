@@ -46,8 +46,10 @@ CALLING SEQUENCE:
     xmod, ymod, Vrmsbin, dVrmsbin, Mbh, sigmapsf, pixscale, nwalks, burn_steps, steps, threads,ideg_in)
 
 
-INPUT PARAMETERS (as described in "EMCEE code" and "JAM code"):
+INPUT PARAMETERS:
   GAL: name of the galaxy 
+  
+(as described in "JAM code")
   QMIN: the axis ratio of the flattest gaussian in Multi-Gaussian Expansion (MGE) method.
   DISTANCE: distance of the galaxy in Mpc.
   SURF_LUM: vector of length N containing the peak surface brightness of the
@@ -88,6 +90,8 @@ INPUT PARAMETERS (as described in "EMCEE code" and "JAM code"):
       kinematics is obtained. This may correspond to the side of the spaxel
       or lenslets of an integral-field spectrograph. This size is used to
       compute the kernel for the seeing and aperture convolution.    
+
+(as described in "EMCEE code")
   NWALKS: Number of Goodman & Weare walkers, which should be equal or 
       greater than twice the dimension, i.e twice the number of the fitted parameters)
   BURN_STEPS: Number of the steps for the burn-in process
@@ -96,9 +100,11 @@ INPUT PARAMETERS (as described in "EMCEE code" and "JAM code"):
   IDEG_IN: galaxy inclination in degrees
 
 
-RETURN (as described in "EMCEE code" and "JAM code"):
+RETURN:
   TABLE: median values of the distributions of the velocity anisotropy, mass-to-light ratio and inclination, 
-    together with their 75 and 25 percentile errors 
+    together with their 75 and 25 percentile errors
+
+(as described in "EMCEE code")    
   BURN_CHAINS: (burn-in phase) A pointer to the Markov chain itself, where the shape of this array is (k, iterations, dim).
   BURN_LNS: (burn-in phase) A pointer to the matrix of the value of lnprobfn (a function that takes a vector in the parameter space 
     as input and returns the natural logarithm of the posterior probability for that position) produced at each step 
@@ -111,6 +117,8 @@ RETURN (as described in "EMCEE code" and "JAM code"):
     for each walker. The shape is (k, iterations).
   FINAL_FLATCHAINS: (posterior phase) A shortcut for accessing burn-in chain flattened along the zeroth (walker) axis.
   FINAL_FLATLNS: (posterior phase) A shortcut to return the equivalent of lnprobability but aligned to flatchain rather than chain.
+
+(as described in "JAM code")
   VRMSMOD:Vector of length P with the model predictions for the velocity
       second moments V_RMS ~ sqrt(vel^2 + sig^2) for each bin.
   CHI2: Reduced chi^2 describing the quality of the fit
@@ -130,7 +138,8 @@ USAGE EXAMPLE:
 
 REQUIRED ROUTINES:
       By M. Cappellari (included in the JAM distribution; http://purl.org/cappellari/software):
-      - JAM modelling package in python (jam_axi_rms.py, mge_vcirc.py, cap_symmetrize_velfield.py, cap_loess_2d.py)
+      - JAM modelling package in python 
+           (main procedures: jam_axi_rms.py, mge_vcirc.py, cap_symmetrize_velfield.py, cap_loess_2d.py)
       
       By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
       - emcee
