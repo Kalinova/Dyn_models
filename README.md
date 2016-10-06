@@ -1,5 +1,5 @@
 # Dyn_models
-Markov Chain Monte Carlo (MCMC) implementation of Axisymmetric Drift Correction (ADC) and Jeans Anisotropic Models (JAM) approaches.
+Markov Chain Monte Carlo (MCMC; Foreman-Mackey et al. 2013) implementation of Axisymmetric Drift Correction (ADC; Binney & Tremaine 2008) and Jeans Anisotropic Models (JAM; Cappellari 2008) approaches.
 
 ==============================================================================================
 ADC-MCM:
