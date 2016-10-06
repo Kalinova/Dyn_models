@@ -46,9 +46,9 @@ CALLING SEQUENCE:
     xmod, ymod, Vrmsbin, dVrmsbin, Mbh, sigmapsf, pixscale, nwalks, burn_steps, steps, threads,ideg_in)
 
 
-INPUT PARAMETERS:
+INPUT PARAMETERS (as described in "EMCEE code" and "JAM code"):
   GAL: name of the galaxy 
-  QMIN: the axis ratio of the flattest gaussian in Multi-Gaussian Expansion (MGE) method
+  QMIN: the axis ratio of the flattest gaussian in Multi-Gaussian Expansion (MGE) method.
   DISTANCE: distance of the galaxy in Mpc.
   SURF_LUM: vector of length N containing the peak surface brightness of the
       MGE Gaussians describing the galaxy surface brightness in units of
@@ -96,7 +96,7 @@ INPUT PARAMETERS:
   IDEG_IN: galaxy inclination in degrees
 
 
-RETURN:
+RETURN (as described in "EMCEE code" and "JAM code"):
   TABLE: median values of the distributions of the velocity anisotropy, mass-to-light ratio and inclination, 
     together with their 75 and 25 percentile errors 
   BURN_CHAINS: (burn-in phase) A pointer to the Markov chain itself, where the shape of this array is (k, iterations, dim).
