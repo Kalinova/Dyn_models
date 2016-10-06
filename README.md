@@ -8,6 +8,7 @@ By M. Cappellari (included in the JAM distribution; http://purl.org/cappellari/s
   - mge_vcirc
   - cap_symmetrize_velfield
   - cap_loess_2d
+
 By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
   - emcee
   - corner
