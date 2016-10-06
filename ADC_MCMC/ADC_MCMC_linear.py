@@ -103,6 +103,8 @@ REQUIRED ROUTINES:
       By D. Foreman-Mackey (http://dan.iel.fm/emcee/current/)
       - emcee
       - corner
+      By Adam Ginsburg (keflavich@gmail.com)
+      - readcol.py 
 
 MODIFICATION HISTORY:
 V1.0: Written and tested as part of the implementation of
