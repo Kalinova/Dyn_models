@@ -1,6 +1,6 @@
 from ADC_MOC_pw import ADC_MOC_pw
 import numpy as np
-from sub_pro.readcol import readcol
+from readcol import readcol
 from pdb import set_trace as stop
 from astropy.io import fits
 
